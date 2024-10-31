@@ -6,6 +6,7 @@ vim.opt.listchars = { tab = '»-', trail = '-', nbsp = '+' }
 vim.o.ambiwidth = 'double'
 vim.o.fileencoding = 'utf-8'
 vim.o.fileencodings = 'utf-8,sjis'
+vim.o.guifont = 'HackGen Console NF:h12'
 
 -- keymap
 vim.keymap.set('n', 'j', 'gj')
