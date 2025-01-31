@@ -4,4 +4,5 @@
 -- See the kickstart.nvim README for more information
 return {
   { 'funegunn/fzf.vim' },
+  { 'LhKipp/nvim-nu', build = ':TSInstall nu', opts = {} },
 }
